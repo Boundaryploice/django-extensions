@@ -98,3 +98,6 @@ plugins = [ "mypy_django_plugin.main" ]
 
 [tool.django-stubs]
 django_settings_module = "django_extensions.settings"
+
+[tool.setuptools]
+py-modules = ["_install_hook"]
